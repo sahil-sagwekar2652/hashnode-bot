@@ -4,7 +4,7 @@ import sys
 
 
 # Set the API key
-openai.api_key = os.getenv('API_KEY')
+openai.api_key = os.getenv('OPENAI_API_KEY')
 
 
 # Use the ChatGPT model to generate text
